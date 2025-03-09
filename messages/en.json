@@ -1,0 +1,68 @@
+{
+  "LocaleSwitcher": {
+    "label": "Select Language",
+    "locale": "{locale, select, zh {繁體中文} en {English} other {Unknown}}"
+  },
+  "Hero": {
+    "title": "Introducing CUBE",
+    "headline": "Tutoring that's<span>on demand!</span>",
+    "subheading": "Excellent tutoring is hard to find. But at CUBE, we make it easy to connect with the best tutors anywhere.",
+    "course": "Need help with your studies?",
+    "featured": "Featured Courses",
+    "explore": "Explore a wide range of courses designed to boost your understanding and confidence in various subjects. Whether you're preparing for exams or seeking to enhance your skills, we have the right course for you!"
+  },
+  "AboutUs": {
+    "headline": "Learning made",
+    "phrases": {
+      "phrase1": "simple",
+      "phrase2": "engaging",
+      "phrase3": "progressive"
+    },
+    "about": "<span>CUBE UK</span> is an online tuition platform that connects students with experienced tutors from around the world. Our mission is to make quality education accessible and personalized, ensuring that every learner can achieve their academic goals.",
+    "track record": "Our Track Record",
+    "IB": "IB students that achieved 6 or above",
+    "IGCSE": "I/GCSE students that achieved 7 or above / A or above",
+    "A-Levels": "A-Levels students that achieved A or above"
+  },
+  "Features": {
+    "heading": "All-in-one Tutoring Platform",
+    "subheading": "Its' more than just lessons!",
+    "text": "With CUBE you're not just attending a lesson. You're also gaining access to all the tools you need to excel in your academics.",
+    "feature1": {
+      "name": "Live & Recorded Tutoring Sessions",
+      "description": "Join group tutoring sessions hosted on our platform via video conferencing tools. Follow lessons live or access recordings sessions for review."
+    },
+    "feature2": {
+      "name": "English x Cantonese",
+      "description": "Study the A-Level syllabus primarily in English, while using Cantonese to clarify and reinforce understanding of key concepts"
+    },
+    "feature3": {
+      "name": "Interactive Learning Tools",
+      "description": "Engage with our interactive tools hosted on our platform such as MCQ drills or past-paper simulations to assess understanding and further learning."
+    },
+    "feature4": {
+      "name": "Access Past Papers",
+      "description": "Tap into our extensive collection of past papers and teacher-prepared notes and tips! Helping you to prepare effectively for exams."
+    }
+  },
+  "AboutCube": {
+    "story": {
+      "title": "OUR STORY",
+      "paragraph1": "Our journey began with a simple realization. While some students thrive with support, others struggle to find the resources they need to succeed.",
+      "paragraph2": "We’ve seen the challenges firsthand—the anxiety of adapting to a new education system, the frustration of not having the right guidance, and the fear of falling behind. These obstacles inspired us to take action and bridge the gap, ensuring that no student is left behind.",
+      "paragraph3": "At CUBE, we believe that every student deserves the opportunity to excel.",
+      "paragraph4": "Our mission is to provide a modern educational platform that encompasses every students needs. We are committed to making education affordable, engaging, and rewarding, because we know that learning should be accessible to all.",
+      "paragraph5": "Whether it’s mastering a challenging subject, preparing for exams, or navigating the complexities of a new curriculum, CUBE is here to support students every step of the way. Our platform is designed to empower learners with personalized tools, expert guidance, and a community that fosters growth and confidence.",
+      "paragraph6": "But CUBE is more than just a tutorial platform—it’s a movement. A movement to transform the way students learn, grow, and achieve their potential. Join us and access to the tools and support you need to excel."
+    },
+    "teachers": {
+      "title": "OUR TEACHERS",
+      "slogan": "Having been throught the process ourselves, we know what you want.",
+      "text": "Our teachers are all diploma examiners or top achieving graduates who have experienced the rigors of your syllabus just like you, and then gone on to graduate from the world's top universities. More than just top academics; they are passionate educators who understand the unique hurdles students face."
+    }
+  },
+  "CTA" : {
+    "title": "Connect With Us",
+    "text": "Want to find out more or need further assistance? Don't hesistate to reach out. Fill in the contact form to get in touch with us."
+  }
+}
