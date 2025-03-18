@@ -12,7 +12,5 @@ export default async function Home() {
     redirect({ href: "/login", locale });
   }
 
-  return (
-    <div>hi</div>>
-  );
+  return <div>hi</div>;
 }
