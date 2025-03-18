@@ -3,11 +3,9 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Loader2 } from "lucide-react";
-import Image from "next/image";
-import { useFormStatus } from "react-dom";
-import GoogleLogo from "@/public/google.svg";
 interface iAppProps {
   text: string;
+  isLoading?: boolean;
   variant?:
     | "default"
     | "destructive"
@@ -17,16 +15,18 @@ interface iAppProps {
     | "link"
     | null
     | undefined;
-
   className?: string;
 }
 
-export function SubmitButton({ text, variant, className }: iAppProps) {
-  const { pending } = useFormStatus();
-
+export function SubmitButton({
+  text,
+  isLoading,
+  variant,
+  className,
+}: iAppProps) {
   return (
     <>
-      {pending ? (
+      {isLoading ? (
         <Button disabled variant="outline" className={cn("w-fit", className)}>
           <Loader2 className="size-4 mr-2 animate-spin" /> Please wait
         </Button>
@@ -42,20 +42,3 @@ export function SubmitButton({ text, variant, className }: iAppProps) {
     </>
   );
 }
-
-// export function GoogleAuthButton() {
-//   const { pending } = useFormStatus();
-//   return (
-//     <>
-//       {pending ? (
-//         <Button variant="outline" className="w-full" disabled>
-//           <Loader2 className="size-4 mr-2 animate-spin" /> Please wait
-//         </Button>
-//       ) : (
-//         <Button variant="outline" className="w-full">
-//           Sign in with Google
-//         </Button>
-//       )}
-//     </>
-//   );
-// }

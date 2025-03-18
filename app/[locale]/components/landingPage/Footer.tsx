@@ -29,11 +29,11 @@ export function Footer() {
           ))}
         </div>
         <Separator className="mt-6 md:hidden" />
-        <div className="grid items-center justify-center gap-4 mt-10 ">
+        <div className="grid items-center justify-center gap-4 mt-10">
           <div className="flex items-center gap-4">
             <Phone />
             <div className="text-muted-foreground">
-              +852 6209 2199  
+              +852 6209 2199 / +44 7470 955072
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
         <Separator className="mt-12" />
         <div className="flex justify-between mt-6">
-          <div className="text-sm text-muted-foreground">©2025 CUBE EDUCATION</div>
+          <div className="text-sm text-muted-foreground">©2025 Cube</div>
           <div className="flex gap-6">
             {/* <Link
               href={"/privacy-policy"}

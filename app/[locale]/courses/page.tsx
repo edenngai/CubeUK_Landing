@@ -1,6 +1,6 @@
 import { Footer } from "../components/landingPage/Footer";
 import Navbar from "../components/landingPage/Navbar";
-import { CourseListing } from "./_components/CourseListing";
+import { CourseListing } from "../components/coursesPage/CourseListing";
 
 export default function Courses() {
   return (

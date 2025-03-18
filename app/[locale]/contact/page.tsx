@@ -45,7 +45,7 @@ export default function Courses() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Navbar />
-      <div className="min-h-screen flex items-center justify-center my-12">
+      <div className="flex items-center justify-center my-24">
         <div className="px-10 lg:p-0 lg:w-3/6 flex flex-col text-center gap-12">
           <div className="text-3xl font-bold">Contact Us</div>
 
@@ -64,11 +64,7 @@ export default function Courses() {
                       Full Name <span className="text-destructive">*</span>
                     </FormLabel>
                     <FormControl>
-                      <Input
-                        placeholder="Enter your name"
-                        {...field}
-                        className="px-3 py-5 text-sm md:text-base"
-                      />
+                      <Input placeholder="Enter your name" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -89,7 +85,6 @@ export default function Courses() {
                         type="email"
                         placeholder="Enter email"
                         {...field}
-                        className="px-3 py-5 text-sm md:text-base"
                       />
                     </FormControl>
                     <FormMessage />
@@ -112,7 +107,6 @@ export default function Courses() {
                         value={field.value} // Bind the form value to the PhoneInput
                         onChange={field.onChange} // Update the form value on change
                         defaultCountry="GB" // Set default country to UK
-                        className="text-sm md:text-base"
                         international
                       />
                     </FormControl>
@@ -131,11 +125,7 @@ export default function Courses() {
                       School <span className="text-destructive">*</span>
                     </FormLabel>
                     <FormControl>
-                      <Input
-                        placeholder="Enter school name"
-                        {...field}
-                        className="px-3 py-5 text-sm md:text-base"
-                      />
+                      <Input placeholder="Enter school name" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -156,7 +146,7 @@ export default function Courses() {
                         onValueChange={field.onChange}
                         value={field.value}
                       >
-                        <SelectTrigger className="w-full px-3 py-5 text-sm md:text-base">
+                        <SelectTrigger className="w-full">
                           <SelectValue placeholder="Select your exam board" />
                         </SelectTrigger>
                         <SelectContent>
@@ -190,7 +180,7 @@ export default function Courses() {
                       <Textarea
                         placeholder="Let us know how we can help you. What kind of tutoring or educational services are you interested in? Do you have any questions or concerns? We're here to provide the guidance you need."
                         {...field}
-                        className="min-h-[150px] px-3 py-2 text-sm md:text-base" // Set a minimum height
+                        className="min-h-[150px]" // Set a minimum height
                       />
                     </FormControl>
                     <FormMessage />

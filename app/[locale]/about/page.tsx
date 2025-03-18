@@ -4,10 +4,6 @@ import { Footer } from "../components/landingPage/Footer";
 import Navbar from "../components/landingPage/Navbar";
 import Image from "next/image";
 
-import Eden from "@/public/EdenNgai.webp";
-import Michael from "@/public/Michael.png"
-import Terry from "@/public/TerryLao.webp";
-
 export default function AboutCube() {
   const t = useTranslations("AboutCube");
   return (
@@ -27,7 +23,9 @@ export default function AboutCube() {
         </p>
         <p className="text-lg mt-5 font-light">{t("story.paragraph4")}</p>
         <p className="text-lg mt-5 font-light">{t("story.paragraph5")}</p>
-        <p className="text-2xl mt-5 font-bold font-serif leading-relaxed">{t("story.paragraph6")}</p>
+        <p className="text-2xl mt-5 font-bold font-serif leading-relaxed">
+          {t("story.paragraph6")}
+        </p>
 
         <div className="font-bold text-3xl text-center tracking-tight mt-24">
           {t("teachers.title")}
@@ -40,8 +38,10 @@ export default function AboutCube() {
         <div className="flex justify-center gap-x-4 mt-8">
           <div className="flex-1 flex flex-col justify-center">
             <Image
-              src={Terry}
+              src="/TerryLao.webp"
               alt="Terry"
+              width={256}
+              height={256}
               className="size-64 rounded-lg object-cover"
             />
             <div className="flex-1 flex flex-col gap-y-1 text-center">
@@ -55,8 +55,10 @@ export default function AboutCube() {
           </div>
           <div className="flex-1 flex flex-col justify-center items-center">
             <Image
-              src={Eden}
+              src="/EdenNgai.webp"
               alt="Eden"
+              width={256}
+              height={256}
               className="size-64 rounded-lg object-cover"
             />
             <div className="flex-1 flex flex-col gap-y-1 text-center">
@@ -69,8 +71,10 @@ export default function AboutCube() {
           </div>
           <div className="flex-1 flex flex-col justify-center items-center">
             <Image
-              src={Michael}
+              src="/Michael.png"
               alt="Michael"
+              width={256}
+              height={256}
               className="size-64 rounded-lg object-cover"
             />
             <div className="flex-1 flex flex-col gap-y-1 text-center">
