@@ -1,3 +1,5 @@
+"use client";
+
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import Logo from "@/public/cube_logo.png";
@@ -10,7 +12,7 @@ import LocaleSwitcher from "./LocaleSwitcher";
 const Navbar = () => {
   return (
     <nav className="relative w-full justify-between flex md:grid md:grid-cols-12 items-center py-5">
-      <div className="md:col-span-1">
+      <div className="md:col-span-2">
         <Link href="/" className="flex items-center gap-2">
           <Image src={Logo} alt="Logo" className="h-14 w-fit" />
         </Link>

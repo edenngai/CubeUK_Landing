@@ -147,12 +147,12 @@ export function Hero() {
               locale === "en" ? (
                 <span className="block text-primary -mt-2">{chunks}</span>
               ) : (
-                <span className="text-primary block">{chunks}</span>
+                <span className="block text-primary">{chunks}</span>
               ),
           })}
         </h1>
         <p
-          className={`max-w-xl mx-auto text-base lg:text-2xl text-muted-foreground ${
+          className={`max-w-xl mx-auto text-lg lg:text-2xl text-muted-foreground ${
             locale === "zh" ? "mt-10" : "mt-4"
           }`}
         >

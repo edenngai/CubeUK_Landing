@@ -1,12 +1,12 @@
 {
   "LocaleSwitcher": {
     "label": "Select Language",
-    "locale": "{locale, select, zh {繁體中文} en {English} other {Unknown}}"
+    "locale": "{locale, select, de {繁體中文} en {English} other {Unknown}}"
   },
   "Hero": {
-    "title": "Introducing CUBE",
+    "title": "Introducing Cube",
     "headline": "Tutoring that's<span>on demand!</span>",
-    "subheading": "Excellent tutoring is hard to find. But at CUBE, we make it easy to connect with the best tutors anywhere.",
+    "subheading": "Excellent tutoring is hard to find. But at Cube, we make it easy to connect with the best tutors anywhere.",
     "course": "Need help with your studies?",
     "featured": "Featured Courses",
     "explore": "Explore a wide range of courses designed to boost your understanding and confidence in various subjects. Whether you're preparing for exams or seeking to enhance your skills, we have the right course for you!"
@@ -18,7 +18,7 @@
       "phrase2": "engaging",
       "phrase3": "progressive"
     },
-    "about": "<span>CUBE UK</span> is an online tuition platform that connects students with experienced tutors from around the world. Our mission is to make quality education accessible and personalized, ensuring that every learner can achieve their academic goals.",
+    "about": "<span>Cube UK</span> is an online tuition platform that connects students with experienced tutors from around the world. Our mission is to make quality education accessible and personalized, ensuring that every learner can achieve their academic goals.",
     "track record": "Our Track Record",
     "IB": "IB students that achieved 6 or above",
     "IGCSE": "I/GCSE students that achieved 7 or above / A or above",
@@ -27,7 +27,7 @@
   "Features": {
     "heading": "All-in-one Tutoring Platform",
     "subheading": "Its' more than just lessons!",
-    "text": "With CUBE you're not just attending a lesson. You're also gaining access to all the tools you need to excel in your academics.",
+    "text": "With Cube you're not just attending a lesson. You're also gaining access to all the tools you need to excel in your academics.",
     "feature1": {
       "name": "Live & Recorded Tutoring Sessions",
       "description": "Join group tutoring sessions hosted on our platform via video conferencing tools. Follow lessons live or access recordings sessions for review."
