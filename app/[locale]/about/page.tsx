@@ -4,6 +4,10 @@ import { Footer } from "../components/landingPage/Footer";
 import Navbar from "../components/landingPage/Navbar";
 import Image from "next/image";
 
+import Eden from "@/public/EdenNgai.webp";
+import Michael from "@/public/Michael.png";
+import Terry from "@/public/TerryLao.webp";
+
 export default function AboutCube() {
   const t = useTranslations("AboutCube");
   return (
@@ -38,10 +42,8 @@ export default function AboutCube() {
         <div className="flex justify-center gap-x-4 mt-8">
           <div className="flex-1 flex flex-col justify-center">
             <Image
-              src="/TerryLao.webp"
+              src={Terry}
               alt="Terry"
-              width={256}
-              height={256}
               className="size-64 rounded-lg object-cover"
             />
             <div className="flex-1 flex flex-col gap-y-1 text-center">
@@ -55,10 +57,8 @@ export default function AboutCube() {
           </div>
           <div className="flex-1 flex flex-col justify-center items-center">
             <Image
-              src="/EdenNgai.webp"
+              src={Eden}
               alt="Eden"
-              width={256}
-              height={256}
               className="size-64 rounded-lg object-cover"
             />
             <div className="flex-1 flex flex-col gap-y-1 text-center">
@@ -71,10 +71,8 @@ export default function AboutCube() {
           </div>
           <div className="flex-1 flex flex-col justify-center items-center">
             <Image
-              src="/Michael.png"
+              src={Michael}
               alt="Michael"
-              width={256}
-              height={256}
               className="size-64 rounded-lg object-cover"
             />
             <div className="flex-1 flex flex-col gap-y-1 text-center">
