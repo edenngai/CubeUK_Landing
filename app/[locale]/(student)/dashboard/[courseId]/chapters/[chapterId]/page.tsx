@@ -46,11 +46,15 @@ async function getChapterbyId(chapterId: string, userId: string) {
   }
 }
 
-export default async function chapterPage({
-  params,
-}: {
-  params: { courseId: string; chapterId: string };
-}) {
+interface iAppProps {
+  params: {
+    courseId: string;
+    chapterId: string;
+    locale: string;
+  };
+}
+
+export default async function chapterPage({ params }: iAppProps) {
   const supabase = await createClient();
   const locale = await getLocale();
 
@@ -60,7 +64,7 @@ export default async function chapterPage({
     redirect({ href: "/login", locale });
   }
 
-  const { chapterId } = await params;
+  const { chapterId } = params;
   const { chapter, hasPurchased } = await getChapterbyId(
     chapterId,
     data.user!.id
