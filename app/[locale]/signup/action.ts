@@ -2,6 +2,8 @@
 
 import { passwordMatchSchema } from "@/validation/passwordMatchSchema";
 import { z } from "zod";
+import { getURL } from "@/utils/getURL";
+import { getLocale } from "next-intl/server";
 
 // import { revalidatePath } from "next/cache";
 // import { redirect } from "next/navigation";
@@ -36,12 +38,18 @@ export const registerUser = async ({
     };
   }
 
+  // Get the current locale
+  const locale = await getLocale();
+
   // supabase authentication from here
   const supabase = await createClient();
 
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
+    options: {
+      emailRedirectTo: getURL(),
+    },
   });
 
   if (error) {
